@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             let targetElement = document.getElementById(targetId);
             if (targetElement) {
                 window.scrollTo({
-                    top: targetElement.offsetTop - 20, // Чуть выше, чтобы было красиво
+                    top: targetElement.offsetTop - 20,
                     behavior: "smooth"
                 });
             }

@@ -1,0 +1,83 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f0e1;
+    color: #5a3e2b;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8b6f47;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    text-align: left;
+}
+
+h1 {
+    padding: 40px;
+    text-align: left;
+}
+
+.index {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*font-style: italic;*/
+    text-align: center;
+    border-left: 5px solid #8b6f47
+}
+
+footer {
+    background-color: #8b6f47;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #8b6f47;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* По умолчанию скрыта */
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #6d5235;
+}
+
+#scrollToTopBtn.show {
+    display: block;
+    opacity: 1;
+}

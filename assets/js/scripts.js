@@ -16,3 +16,19 @@ document.addEventListener("DOMContentLoaded", function () {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('.timeline-nav a').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            let targetId = this.getAttribute("href").substring(1);
+            let targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 20, // Чуть выше, чтобы было красиво
+                    behavior: "smooth"
+                });
+            }
+        });
+    });
+});

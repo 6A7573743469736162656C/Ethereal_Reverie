@@ -14,10 +14,21 @@
                 <li><a href="index.html">Main</a></li>
                 <li><a href="memories.html">Memories</a></li>
                 <li><a href="about.html">Music</a></li>
-                <li><a href="contact.html">More</a></li>
+                <li><button class="more-btn" onclick="toggleSidebar()">☰</button></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Выезжающее меню -->
+    <aside id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        <ul>
+            <li><a href="contact.html">More</a></li>
+            <li><a href="copyright.html">Copyright Notice</a>
+            <li><a href=""></a></li>
+        </ul>
+    </aside>
+    
     <h1>Ethereal Reverie</h1>
     <section id="index">
         <p>There are times in our lives when words feel inadequate to express our feelings and emotions, however, we are given no option but to bring them forth. This is one of those moments - an attempt to voice what has been silent in my heart for a long time. What follows is neither a plea nor a declaration, but a simple reflection of what once was, and a quiet tribute to you.

@@ -14,13 +14,20 @@
                 <li><a href="index.html">Main</a></li>
                 <li><a href="memories.html">Memories</a></li>
                 <li><a href="about.html">Music</a></li>
-                <li><a href="contact.html">More</a></li>
+                <li><button class="more-btn" onclick="toggleSidebar()">☰</button></li>
             </ul>
         </nav>
     </header>
 
-    <!--<h1>! IN DEVELOPEMENT !</h1>-->
-
+    <!-- Выезжающее меню -->
+    <aside id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        <ul>
+            <li><a href="contact.html">More</a></li>
+            <li><a href="copyright.html">Copyright Notice</a>
+            <li><a href=""></a></li>
+        </ul>
+    </aside>
     <section class="timeline">
         <h1>Our Story: January - August 2023</h1>
         <div class="timeline-nav">

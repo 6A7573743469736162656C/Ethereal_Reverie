@@ -32,3 +32,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+function toggleSidebar() {
+    const sidebar = document.getElementById("sidebar");
+    const computedStyle = window.getComputedStyle(sidebar); // Получаем актуальный стиль
+    const currentLeft = computedStyle.left; // Узнаем текущее значение left
+
+    if (currentLeft === "-250px") {
+        sidebar.style.left = "0";
+    } else {
+        sidebar.style.left = "-250px";
+    }
+}

@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Сайт загружен. Добро пожаловать!");
+    console.log("Welcome!");
 });
+
 document.addEventListener("DOMContentLoaded", function () {
     let scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
@@ -35,8 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function toggleSidebar() {
     const sidebar = document.getElementById("sidebar");
-    const computedStyle = window.getComputedStyle(sidebar); // Получаем актуальный стиль
-    const currentLeft = computedStyle.left; // Узнаем текущее значение left
+    const computedStyle = window.getComputedStyle(sidebar);
+    const currentLeft = computedStyle.left;
 
     if (currentLeft === "-250px") {
         sidebar.style.left = "0";
@@ -44,3 +45,20 @@ function toggleSidebar() {
         sidebar.style.left = "-250px";
     }
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    const sortButton = document.getElementById("sortButton");
+    const memoriesContainer = document.getElementById("memories-container");
+
+    let ascending = true;
+
+    sortButton.addEventListener("click", function () {
+        let memories = Array.from(memoriesContainer.children);
+        memories.reverse();
+
+        memories.forEach(memory => memoriesContainer.appendChild(memory));
+
+        ascending = !ascending;
+        sortButton.textContent = ascending ? "Sort: Oldest to Newest" : "Sort: Newest to Oldest";
+    });
+});

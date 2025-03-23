@@ -90,8 +90,18 @@ footer {
     margin: 20px 0;
     padding: 15px;
     padding-left: 40px;
+    padding-right: 40px;
     font-family: 'Georgia', serif;
     transition: 0.3s;
+
+}
+
+.memory img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
 }
 
 .date {

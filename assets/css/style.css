@@ -126,12 +126,8 @@ footer {
 
 .more-section {
     background: #f5f0e1;
-    padding: 25px;
-    border-radius: 12px;
     text-align: center;
     font-family: 'Georgia', serif;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #d4c2a8;
 }
 
 .more-section h2 {

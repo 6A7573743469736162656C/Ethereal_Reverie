@@ -75,10 +75,6 @@ footer {
     transition: opacity 0.3s, transform 0.3s;
 }
 
-#scrollToTopBtn:hover {
-    background-color: #6d5235;
-}
-
 #scrollToTopBtn.show {
     display: block;
     opacity: 1;

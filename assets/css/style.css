@@ -71,14 +71,15 @@ footer {
     border-radius: 50%;
     font-size: 24px;
     cursor: pointer;
-    display: flex;
+    display: none;
+    transition: opacity 0.3s, transform 0.3s;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
 #scrollToTopBtn.show {
-    display: block;
+    display: flex;
     opacity: 1;
 }
 

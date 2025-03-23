@@ -119,10 +119,6 @@ footer {
     transition: background 0.3s;
 }
 
-#sortButton:hover {
-    background: #6d4c3d;
-}
-
 .more-section {
     background: #f5f0e1;
     padding: 25px;

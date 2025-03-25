@@ -92,7 +92,6 @@ footer {
     padding-right: 40px;
     font-family: 'Georgia', serif;
     transition: 0.3s;
-
 }
 
 .memory img {
@@ -255,4 +254,42 @@ blockquote {
     border: none;
     font-size: 24px;
     cursor: pointer;
+}
+
+header#space, footer#space {
+    background-color: rgba(10, 10, 10, 0.9);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+header#space {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+footer#space {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+footer#space p {
+    margin: 0;
+    font-size: 14px;
+}
+
+footer#space a {
+    color: white;
+    text-decoration: none;
+}
+
+footer#space a:hover {
+    color: #8b6f47;
 }

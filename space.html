@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/scripts.js" defer></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .star {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            background-color: white;
+            border-radius: 50%;
+            animation: twinkle 1.5s infinite;
+        }
+
+        @keyframes twinkle {
+            0% {
+                opacity: 0.5;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.5;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="space">
+        <nav>
+            <ul>
+                <li><a href="javascript:history.back()">←</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<script>
+    function createStar() {
+        const star = document.createElement("div");
+        star.classList.add("star");
+
+        const x = Math.random() * window.innerWidth;
+        const y = Math.random() * window.innerHeight;
+        star.style.left = `${x}px`;
+        star.style.top = `${y}px`;
+
+        document.body.appendChild(star);
+
+        setTimeout(() => {
+            star.remove();
+        }, 1500);
+    }
+
+    setInterval(createStar, 1);
+</script>
+    <footer id="space">
+        <p>&copy; 2025 <a href="c.html">All rights reserved.</a></p>
+    </footer>
+</body>
+</html>

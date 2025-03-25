@@ -257,7 +257,7 @@ blockquote {
 }
 
 header#space, footer#space {
-    background-color: rgba(10, 10, 10, 0.9);
+    background-color: rgba(0, 0, 0, 0);
     color: white;
     padding: 15px 20px;
     text-align: center;

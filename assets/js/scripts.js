@@ -43,3 +43,8 @@ document.addEventListener("DOMContentLoaded", function () {
         sortButton.textContent = ascending ? "Sort: Oldest to Newest" : "Sort: Newest to Oldest";
     });
 });
+
+//expand
+function togglePoem(poem) {
+    poem.classList.toggle("expanded");
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Main</a></li>
+                <li><a href="memories.html">Memories</a></li>
+                <li><a href="poetry.html">Poetry</a></li>
+                <li><button class="more-btn" onclick="toggleSidebar()">☰</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <aside id="sidebar">
+        <button class="close-btn" onclick="toggleSidebar()">×</button>
+        <ul>
+            <li><a href="about.html">Music</a></li>
+            <li><a href="contact.html">More</a></li>
+            <li><a href="space.html">?</a></li>
+        </ul>
+    </aside>
+
+    <main>
+        <h1>Poetry</h1>
+        <button id="sortButton">Sort: Oldest to Newest</button>
+
+        <div id="memories-container">
+
+            <section class="poem">
+                <span class="date">date</span>
+                <p>
+                    text text text text text <br>
+                    text text text text  <br>
+                    text text text text text <br>
+                    text text text  <br>
+                    <br>
+                    text text text text  <br>
+                    text text text text text <br>
+                    text text text  <br>
+                    text text text text text<br>
+                </p>
+            </section>
+
+            <section class="poem">
+                <span class="date">Coming soon</span>
+                <p>
+                    ...
+                </p>
+            </section>
+<!--
+            <section class="poem">
+                <span class="date"></span>
+                <p>
+                    
+                </p>
+            </section>
+-->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 <a href="c.html">All rights reserved.</a></p>
+    </footer>
+    <button id="scrollToTopBtn">▲</button>
+</body>
+</html>

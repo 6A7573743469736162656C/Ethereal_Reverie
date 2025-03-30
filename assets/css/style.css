@@ -117,6 +117,7 @@ footer {
     padding-left: 40px;
     padding-right: 40px;
     font-family: 'Georgia', serif;
+    font-size: 13px;
     transition: 0.3s;
 }
 
@@ -136,6 +137,7 @@ footer {
     padding-left: 40px;
     padding-right: 40px;
     font-family: 'Georgia', serif;
+    font-size: 13px;
     transition: 0.3s;
     max-height: 127px;
     overflow: hidden;

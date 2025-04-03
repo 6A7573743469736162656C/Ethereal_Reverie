@@ -176,6 +176,20 @@ footer {
     transition: background 0.3s;
 }
 
+.poetry-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.poetry-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #8b6f47;
+    font-size: 13px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
 .more-section {
     background: #fbf0e0;
     text-align: center;

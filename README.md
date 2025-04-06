@@ -1,4 +1,10 @@
 # ! IN DEVELOPEMENT !
+
+If you'd like to receive early release notifications, make sure to click "Watch", then select "Custom" and "Releases" to get email alerts about upcoming releases.
+
+*You must be signed in.*
+
+---
 > upd: 05.04.25 / 12:47
 
 > upd: 05.04.25 / 11:48

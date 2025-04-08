@@ -45,12 +45,15 @@ h1 {
     right: 40px;
 }
 
-
 footer {
     background-color: #8b6f47;
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+.index-links {
+    color: #5a3e2b;
 }
 
 #scrollToTopBtn {

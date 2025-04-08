@@ -1,40 +1,62 @@
-# Security Policy
+# Security & Feedback Policy
 
 ## Reporting a Vulnerability
 
-If you believe you've discovered a security vulnerability in this project, please report it responsibly. Do not disclose the vulnerability publicly before I have had a chance to investigate and address the issue.
+If you discover a **security issue** on this website (e.g., XSS, unauthorized access, data leaks), please report it **privately and responsibly** by emailing: **example@email.com**.
 
-To report a vulnerability, send an email to (email) with the following information:
+Please include:
 
-- A description of the vulnerability
-- Steps to reproduce the issue (if applicable)
-- Potential impact or exploit information
-- Your contact information (if you'd like a response)
+- A clear description of the issue  
+- Steps to reproduce (if possible)  
+- Your contact information (optional)
 
-I take security seriously and will work to resolve any issues as quickly as possible.
-
-## Security Best Practices
-
-I recommend the following best practices to ensure the security of this project:
-
-- **Keep software up to date**: Always use the latest stable version of dependencies.
-- **Use strong authentication methods**: Enforce multi-factor authentication (MFA) where applicable.
-- **Validate user input**: Ensure all input is properly validated and sanitized to avoid common vulnerabilities (e.g., SQL injection, XSS).
-- **Limit access**: Follow the principle of least privilege and restrict access to sensitive data and functionality.
-- **Encrypt sensitive data**: Use encryption to protect sensitive data, both at rest and in transit.
-
-## Security Patches
-
-If I identify a security vulnerability that requires a patch, I will:
-
-- Assess the severity of the vulnerability.
-- Develop and test a patch.
-- Release the patch as soon as possible, following best practices for responsible disclosure.
-
-## Legal Disclaimer
-
-While I take all reasonable precautions to ensure the security of this project, I cannot guarantee the absence of vulnerabilities. By using this project, you acknowledge that I am not liable for any damage or loss caused by security issues.
+Please **do not** publicly disclose any vulnerabilities before I have reviewed and addressed them.
 
 ---
 
-Thank you for helping keep this project secure!
+## Reporting Bugs & Issues
+
+If you notice a **bug**, **malfunction**, or anything that doesn’t work as expected on the site, I’d greatly appreciate if you could let me know.
+
+You can report:
+
+- Page errors or broken links  
+- Layout issues or poor performance  
+- Any other unintended behavior  
+
+Just send an email to: **example@email.com** with a short description.
+
+---
+
+## Suggestions & Feedback
+
+Your ideas matter. If you have:
+
+- Suggestions to improve the site  
+- Feature requests  
+- Design or usability feedback  
+
+Feel free to reach out to **example@email.com**.
+
+Constructive feedback is always welcome and helps me make the site better for everyone.
+
+---
+
+## Security Practices
+
+This website follows standard security measures, including:
+
+- Regular maintenance and software updates  
+- Input validation and sanitization  
+- Encryption and access controls where necessary  
+
+---
+
+## Legal Disclaimer
+
+While I take all reasonable steps to ensure the security and stability of this website, I cannot guarantee it is entirely free from vulnerabilities or bugs.  
+By using this site, you acknowledge that I am not liable for any damage or loss resulting from its use.
+
+---
+
+**Thank you for helping keep this site secure, stable, and improving.**

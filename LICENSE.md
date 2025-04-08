@@ -1,6 +1,6 @@
 # License
 
-Copyright © [name].
+Copyright © (name).
 
 All rights reserved. This material is provided for personal use only. Copying, distributing, modifying, or any other use of this material is strictly prohibited without the express written permission of the copyright owner.
 
@@ -9,7 +9,7 @@ You may not:
 - Make modifications, adaptations, or derivative works based on the material.
 - Use the material for commercial purposes without prior written consent from the copyright owner.
 
-For permission to use the material, please contact the copyright owner at: [email].
+For permission to use the material, please contact the copyright owner at: (email).
 
 ---
 

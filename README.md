@@ -3,7 +3,7 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Last Commit](https://img.shields.io/github/last-commit/6A7573743469736162656C/Ethereal_Reverie)
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/6A7573743469736162656C/Ethereal_Reverie)
-![Version](https://img.shields.io/badge/version-0.0.0-red)
+![Version](https://img.shields.io/badge/version-0.0-red)
 ![License](https://img.shields.io/badge/license-Other-blue)
 
 ### Planned release by the end of April 2025.

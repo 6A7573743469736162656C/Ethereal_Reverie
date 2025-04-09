@@ -4,6 +4,14 @@ body {
     color: #5a3e2b;
     margin: 0;
     padding: 0;
+    flex-grow: 1;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -50,6 +58,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    margin-top: auto;
 }
 
 .index-links {

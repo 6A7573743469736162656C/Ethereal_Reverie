@@ -38,7 +38,7 @@ Your ideas matter. If you have:
 
 Feel free to reach out to doctorinternet@icloud.com.
 
-Constructive feedback is always welcome and helps me make the site better for everyone.
+Constructive feedback is always welcome and helps me make the site better.
 
 ---
 

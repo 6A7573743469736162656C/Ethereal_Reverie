@@ -32,8 +32,7 @@ No part of the material may be reused, reproduced, or redistributed in any form 
 ## Code License
 
 Unless otherwise stated, all code in this project is **not open source**.  
-**You may not use, copy, or redistribute any part of the code** without prior written authorization from the author.  
-Requests for code licensing can be sent to: **example@email.com**.
+**You may not use, copy, or redistribute any part of the code** without prior written authorization from the author. 
 
 If you are looking for open source licensing, please contact me directly to discuss options.
 
@@ -48,8 +47,6 @@ You are **not permitted** to:
 - Reproduce or republish content elsewhere (including social media or blogs).  
 - Translate, remix, or adapt content without express permission.  
 - Use the content in part or in full for commercial or promotional purposes.
-
-For permission, contact: **example@email.com**.
 
 ---
 

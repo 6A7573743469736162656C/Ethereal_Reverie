@@ -17,7 +17,7 @@ Copying, distributing, modifying, or any other use of this material is **strictl
 ## Limited Personal Use
 
 You may view and read the material for **personal, non-commercial purposes only**.  
-No part of the material may be reused, reproduced, or redistributed in any form without prior written permission.
+No part of the material may be reused, reproduced, or redistributed in any form.
 
 ---
 
@@ -25,16 +25,14 @@ No part of the material may be reused, reproduced, or redistributed in any form 
 
 - Copy, distribute, sell, or transfer the material to others in any form (including but not limited to electronic copies, printed copies, screenshots, or reprints).  
 - Make modifications, adaptations, or derivative works based on the material.  
-- Use the material for commercial purposes without explicit written consent.
+- Use the material for commercial purposes.
 
 ---
 
 ## Code License
 
 Unless otherwise stated, all code in this project is **not open source**.  
-**You may not use, copy, or redistribute any part of the code** without prior written authorization from the author. 
-
-If you are looking for open source licensing, please contact me directly to discuss options.
+You may not use, copy, or redistribute any part of the code. 
 
 ---
 
@@ -45,7 +43,7 @@ All creative content (text, graphics, visuals, articles, etc.) is **copyright pr
 You are **not permitted** to:
 
 - Reproduce or republish content elsewhere (including social media or blogs).  
-- Translate, remix, or adapt content without express permission.  
+- Translate, remix, or adapt content.  
 - Use the content in part or in full for commercial or promotional purposes.
 
 ---
@@ -81,4 +79,4 @@ Violations may lead to civil and criminal liability, including fines and other l
 
 ---
 
-_Last updated: April 8, 2025_
+_Last updated: April 10, 2025_

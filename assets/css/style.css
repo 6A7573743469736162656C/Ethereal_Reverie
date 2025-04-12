@@ -378,6 +378,7 @@ blockquote {
 
 .close-btn {
     position: absolute;
+    color: #6d4c41;
     top: 10px;
     right: 10px;
     background: none;

@@ -388,3 +388,33 @@ blockquote {
     font-size: 24px;
     cursor: pointer;
 }
+
+.letters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin: 40px;
+}
+
+.letter {
+    width: 180px;
+    height: 180px;
+    background-color: #8b6f47;
+    /*border: 1px solid #444;*/
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #f2f2f2;
+    padding: 20px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.letter:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 100px;
+    margin-bottom: 10px;
+}

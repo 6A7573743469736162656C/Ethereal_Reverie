@@ -441,11 +441,13 @@ blockquote {
 
 .letter-body p {
     margin-bottom: 20px;
+    font-size: 13px;
 }
 
 .letter-signature {
     margin-top: 40px;
     text-align: right;
     font-style: italic;
+    font-size: 13px;
     color: #5a3e2b;
 }

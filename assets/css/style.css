@@ -418,3 +418,36 @@ blockquote {
     font-size: 100px;
     margin-bottom: 10px;
 }
+
+.letter-container {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.03);
+    color: #5a3e2b;
+    font-family: 'Georgia', serif;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    transition: background-color 0.3s;
+}
+
+.letter-header {
+    text-align: right;
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #5a3e2b;
+    font-size: 14px;
+}
+
+.letter-body p {
+    margin-bottom: 20px;
+}
+
+.letter-signature {
+    margin-top: 40px;
+    text-align: right;
+    font-style: italic;
+    color: #5a3e2b;
+}

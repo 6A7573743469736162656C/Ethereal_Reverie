@@ -26,7 +26,7 @@ function toggleSidebar() {
     }
 }
 
-//sort
+//sort memories/poems
 document.addEventListener("DOMContentLoaded", function () {
     const sortButton = document.getElementById("sortButton");
     const memoriesContainer = document.getElementById("memories-container");
@@ -44,7 +44,32 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-//expand
+//expand poem
 function togglePoem(poem) {
     poem.classList.toggle("expanded");
 }
+
+//sort letters
+document.addEventListener("DOMContentLoaded", function () {
+    const sortButton = document.getElementById("sortButton");
+    const lettersContainer = document.getElementById("letters-container");
+
+    let ascending = false;
+
+    sortButton.addEventListener("click", function () {
+        const letters = Array.from(lettersContainer.getElementsByClassName("letter"));
+
+        letters.sort((a, b) => {
+            const dateA = new Date(a.querySelector(".date").textContent);
+            const dateB = new Date(b.querySelector(".date").textContent);
+            return ascending ? dateA - dateB : dateB - dateA;
+        });
+
+        letters.forEach(letter => lettersContainer.appendChild(letter));
+
+        ascending = !ascending;
+        sortButton.textContent = ascending
+            ? "Sort: Newest to Oldest"
+            : "Sort: Oldest to Newest";
+    });
+});

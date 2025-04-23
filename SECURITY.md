@@ -12,8 +12,6 @@ Please include:
 
 Please **do not** publicly disclose any vulnerabilities before I have reviewed and addressed them.
 
----
-
 ## Reporting Bugs & Issues
 
 If you notice a **bug**, **malfunction**, or anything that doesn’t work as expected on the site, I’d greatly appreciate if you could let me know.
@@ -25,8 +23,6 @@ You can report:
 - Any other unintended behavior  
 
 Just send an email to: admin@etherealreverie.es with a short description.
-
----
 
 ## Suggestions & Feedback
 
@@ -40,8 +36,6 @@ Feel free to reach out to admin@etherealreverie.es.
 
 Constructive feedback is always welcome and helps me make the site better.
 
----
-
 ## Security Practices
 
 This website follows standard security measures, including:
@@ -49,8 +43,6 @@ This website follows standard security measures, including:
 - Regular maintenance and software updates  
 - Input validation and sanitization  
 - Encryption and access controls where necessary  
-
----
 
 ## Legal Disclaimer
 

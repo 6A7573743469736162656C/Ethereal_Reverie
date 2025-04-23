@@ -298,6 +298,7 @@ footer {
 .instagram { background: #e4405f; }
 .poetry-channel { background: #6a5acd; }
 .site-btn { background: #6d4c41; }
+.github { background: #000; }
 
 .social-btn:hover, .site-btn:hover {
     opacity: 0.8;

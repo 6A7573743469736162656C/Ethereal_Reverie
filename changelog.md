@@ -1,19 +1,5 @@
-# ! IN DEVELOPEMENT !
+# Changelog
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Last Commit](https://img.shields.io/github/last-commit/6A7573743469736162656C/Ethereal_Reverie)
-![Commit Activity](https://img.shields.io/github/commit-activity/m/6A7573743469736162656C/Ethereal_Reverie)
-![Version](https://img.shields.io/badge/version-0.0.0-red)
-![License](https://img.shields.io/badge/license-Other-blue)
-
-### Planned release by the end of April 2025.
-
-> [!NOTE]
-> If you'd like to receive early release notifications, make sure to click "Watch", then select "Custom" and "Releases" to get email alerts about upcoming releases.
-> 
-> **You must be signed in.*
-
----
 > upd: 24.04.25 / 0:05
 
 > upd: 23.04.25 / 15:09

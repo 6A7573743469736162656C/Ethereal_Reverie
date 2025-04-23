@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If you discover a **security issue** on this website (e.g., XSS, unauthorized access, data leaks), please report it **privately and responsibly** by emailing: doctorinternet@icloud.com.
+If you discover a **security issue** on this website (e.g., XSS, unauthorized access, data leaks), please report it **privately and responsibly** by emailing: admin@etherealreverie.es.
 
 Please include:
 
@@ -24,7 +24,7 @@ You can report:
 - Layout issues or poor performance  
 - Any other unintended behavior  
 
-Just send an email to: doctorinternet@icloud.com with a short description.
+Just send an email to: admin@etherealreverie.es with a short description.
 
 ---
 
@@ -36,7 +36,7 @@ Your ideas matter. If you have:
 - Feature requests  
 - Design or usability feedback  
 
-Feel free to reach out to doctorinternet@icloud.com.
+Feel free to reach out to admin@etherealreverie.es.
 
 Constructive feedback is always welcome and helps me make the site better.
 

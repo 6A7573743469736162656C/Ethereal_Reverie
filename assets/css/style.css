@@ -67,6 +67,10 @@ footer {
     color: #5a3e2b;
 }
 
+#arr {
+    color: #fff;
+}
+
 #scrollToTopBtn {
     position: fixed;
     bottom: 20px;

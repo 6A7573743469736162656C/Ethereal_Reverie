@@ -59,11 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
     sortButton.addEventListener("click", function () {
         const letters = Array.from(lettersContainer.getElementsByClassName("letter"));
 
-        letters.sort((a, b) => {
-            const dateA = new Date(a.querySelector(".date").textContent);
-            const dateB = new Date(b.querySelector(".date").textContent);
-            return ascending ? dateA - dateB : dateB - dateA;
-        });
+        letters.reverse();
 
         letters.forEach(letter => lettersContainer.appendChild(letter));
 

@@ -39,6 +39,23 @@ No part of the material may be reused, reproduced, or redistributed in any form.
 > - Use the material as a component of NFTs or tokenized assets, or distribute it via blockchain technologies in any format.
 > - Include the material or its parts in any form of user-generated content (e.g., YouTube videos, Medium articles, public GitHub repositories, Figma templates, etc.).
 
+---
+
+> [!WARNING]
+> ## You May Not (regarding links, mirrors, and clones)
+> - Share, post, or promote direct links to this website or any of its internal pages on public forums, social media platforms, messaging services, or websites without prior written permission from the author.  
+> - Create, host, or distribute mirror copies, clones, forks, or replicas of this website or any of its components — whether publicly or privately, temporarily or permanently.  
+> - Generate alternative versions of this site under a different domain, subdomain, or URL structure, even if for non-commercial or educational purposes.  
+> - Use redirection services or URL shorteners (e.g., bit.ly, tinyurl, is.gd) to obscure or repackage access to this website.  
+> - Include this website (or any portion of it) in web directories, link farms, aggregators, or curated showcases.  
+> - Allow automated indexing, archiving, or caching of this website via third-party tools, crawlers, bots, or content delivery networks.  
+> - Frame or embed the website (or parts of it) inside other domains or web applications.  
+> - Promote unauthorized copies, backups, or offline versions of this project — even with attribution.  
+> - Reference, link to, or share this website in the context of unofficial mirror sites or pages that imitate or replicate its layout, content, or experience.  
+> - Include this site or its links in QR codes, printed materials, or other distribution formats without permission.
+> - Register or use domain names that include variations, misspellings, or transliterations of this site's name or brand for purposes of redirection, imitation, or SEO manipulation.
+> - Include this website in browser extensions, standalone apps, or widgets.
+> - Archive this website in services like Wayback Machine or similar public archives, manually or automatically.
 
 ---
 
@@ -52,12 +69,6 @@ You may not use, copy, or redistribute any part of the code.
 ## Content License
 
 All creative content (text, graphics, visuals, articles, etc.) is **copyright protected** and **not licensed for reuse**.
-
-You are **not permitted** to:
-
-- Reproduce or republish content elsewhere (including social media or blogs).  
-- Translate, remix, or adapt content.  
-- Use the content in part or in full for commercial or promotional purposes.
 
 ---
 
@@ -92,4 +103,4 @@ Failure to enforce any part of this license does not constitute a waiver of the 
 
 ---
 
-_Last updated: April 23, 2025_
+_Last updated: April 24, 2025_

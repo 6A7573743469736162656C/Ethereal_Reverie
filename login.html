@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <script src="assets/js/scripts.js" defer></script>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background: #fbf0e0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    h1 {
+        color: #5a3e2b;
+        margin-bottom: 20px;
+        margin-top: 12px;
+    }
+
+    .login-container {
+        background: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        text-align: center;
+        width: 300px;
+        max-width: 500px;
+        margin: 0 40px;
+    }
+
+    select, input[type="password"], button {
+        width: 100%;
+        padding: 12px;
+        margin: 12px 0;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        display: block;
+    }
+
+    button {
+        background-color: #8b6f47;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #745a38;
+    }
+
+    .message {
+        margin-top: 15px;
+        font-weight: bold;
+    }
+</style>
+
+</head>
+<body>
+
+<div class="login-container">
+    <h1>Select User</h1>
+    <select id="userSelect">
+        <option value="1">User 1</option>
+        <option value="2">User 2</option>
+    </select>
+
+    <input type="password" id="passwordInput" placeholder="Enter password">
+    <button onclick="login()">Enter</button>
+
+    <div class="message" id="message"></div>
+</div>
+
+</body>
+</html>

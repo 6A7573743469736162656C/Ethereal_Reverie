@@ -69,26 +69,3 @@ document.addEventListener("DOMContentLoaded", function () {
             : "Sort: Oldest to Newest";
     });
 });
-
-//login
-function login() {
-    const user = document.getElementById("userSelect").value;
-    const password = document.getElementById("passwordInput").value;
-    const message = document.getElementById("message");
-
-        const passwords = {
-        "1": "123456",
-        "2": "654321"
-    };
-
-    if (password === passwords[user]) {
-        message.style.color = "green";
-        message.textContent = "Login successful!";
-        setTimeout(() => {
-            window.location.href = "index.html";
-        }, 1000); // redirect after 1 second
-    } else {
-        message.style.color = "red";
-        message.textContent = "Incorrect password.";
-    }
-}

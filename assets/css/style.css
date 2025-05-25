@@ -475,3 +475,47 @@ blockquote {
     font-size: 13px;
     color: #5a3e2b;
 }
+
+.news-ticker {
+    width: 100%;
+    overflow: hidden;
+    padding: 13px 0;
+    font-size: 13px;
+    font-family: Georgia, sans-serif;
+    color: #5a3e2b;
+    position: relative;
+    background-color: transparent;
+    line-height: 1px;
+}
+
+.ticker-track {
+    display: inline-flex;
+    animation: tickerScroll 20s linear infinite; /* SLIDING SPEED */
+    align-items: center;
+    white-space: nowrap;
+    padding-left: 100%;
+}
+
+.ticker-item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+@keyframes tickerScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

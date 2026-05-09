@@ -32,12 +32,12 @@ No part of the material may be reused, reproduced, or redistributed in any form.
 > - Use any part of the material in AI training datasets, machine learning models, or content generation tools.
 > - Frame, embed, mirror, or replicate the project or its elements on external websites or applications.
 > - Use the material in association with political, offensive, defamatory, or illegal content.
-> - Store or distribute the material via decentralized platforms (e.g., IPFS), torrent networks, or blockchain-based hosting.
+> - Store or distribute the material via decentralized platforms, torrent networks, or blockchain-based hosting.
 > - Use the material in academic, commercial, or promotional presentations, talks, or publications without permission.
-> - Upload the material or any portion of it to AI code assistants (e.g., GitHub Copilot), cloud-based IDEs, or collaborative coding platforms.
+> - Upload the material or any portion of it to AI code assistants, cloud-based IDEs, or collaborative coding platforms.
 > - Extract metadata, design decisions, aesthetic structure, or writing style for reuse in derivative or competing works.
 > - Use the material as a component of NFTs or tokenized assets, or distribute it via blockchain technologies in any format.
-> - Include the material or its parts in any form of user-generated content (e.g., YouTube videos, Medium articles, public GitHub repositories, Figma templates, etc.).
+> - Include the material or its parts in any form of user-generated content.
 
 ---
 
@@ -46,7 +46,7 @@ No part of the material may be reused, reproduced, or redistributed in any form.
 > - Share, post, or promote direct links to this website or any of its internal pages on public forums, social media platforms, messaging services, or websites without prior written permission from the author.  
 > - Create, host, or distribute mirror copies, clones, forks, or replicas of this website or any of its components — whether publicly or privately, temporarily or permanently.  
 > - Generate alternative versions of this site under a different domain, subdomain, or URL structure, even if for non-commercial or educational purposes.  
-> - Use redirection services or URL shorteners (e.g., bit.ly, tinyurl, is.gd) to obscure or repackage access to this website.  
+> - Use redirection services or URL shorteners to obscure or repackage access to this website.  
 > - Include this website (or any portion of it) in web directories, link farms, aggregators, or curated showcases.  
 > - Allow automated indexing, archiving, or caching of this website via third-party tools, crawlers, bots, or content delivery networks.  
 > - Frame or embed the website (or parts of it) inside other domains or web applications.  
@@ -103,4 +103,4 @@ Failure to enforce any part of this license does not constitute a waiver of the 
 
 ---
 
-_Last updated: April 24, 2025_
+_Last updated: May 9, 2026_
